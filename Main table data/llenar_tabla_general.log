@@ -1,0 +1,68 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mar Sep 21 11:08:45 2021
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Archivo de Control:   llenar_tabla_general.ctl
+Archivo de Datos:      Precipitaciones_Totales_Mensuales.csv
+  Archivo de Errores:     Precipitaciones_Totales_Mensuales.bad
+  Desechar Archivo:  ninguno especificado
+ 
+ (Permitir todos los registros desechados)
+
+Número a cargar: ALL
+Número que omitir: 0
+Errores permitidos: 50
+Matriz de enlace:     250 filas, máximo de 1048576 bytes
+Continuación:    ninguno especificado
+Ruta de acceso utilizada:      Convencional
+
+Tabla DATOSCOMPLETOS, cargada de cada registro lógico.
+Opción INSERT activa para esta tabla: APPEND
+Opción TRAILING NULLCOLS activada
+
+   Nombre Columna                  Posición   Long  Term Entorno Tipo de Dato
+------------------------------ ---------- ----- ---- ---- ---------------------
+ESTACION                            FIRST     *   ;  O(") CHARACTER            
+CODIGO                               NEXT     *   ;  O(") CHARACTER            
+X_N                                  NEXT     *   ;  O(") CHARACTER            
+Y_E                                  NEXT     *   ;  O(") CHARACTER            
+MUNICIPIO                            NEXT     *   ;  O(") CHARACTER            
+CUENCA                               NEXT     *   ;  O(") CHARACTER            
+ANIO                                 NEXT     *   ;  O(") CHARACTER            
+ENERO                                NEXT     *   ;  O(") CHARACTER            
+FEBRERO                              NEXT     *   ;  O(") CHARACTER            
+MARZO                                NEXT     *   ;  O(") CHARACTER            
+ABRIL                                NEXT     *   ;  O(") CHARACTER            
+MAYO                                 NEXT     *   ;  O(") CHARACTER            
+JUNIO                                NEXT     *   ;  O(") CHARACTER            
+JULIO                                NEXT     *   ;  O(") CHARACTER            
+AGOSTO                               NEXT     *   ;  O(") CHARACTER            
+SEPTIEMBRE                           NEXT     *   ;  O(") CHARACTER            
+OCTUBRE                              NEXT     *   ;  O(") CHARACTER            
+NOVIEMBRE                            NEXT     *   ;  O(") CHARACTER            
+DICIEMBRE                            NEXT     *   ;  O(") CHARACTER            
+
+el valor utilizado para el parámetro ROWS ha cambiado de 250 a 213
+
+Tabla DATOSCOMPLETOS:
+  6094 Filas cargadas correctamente.
+  0 Filas no cargadas debido a errores de datos.
+  0 Filas no cargadas porque todas las cláusulas WHEN han fallado.
+  0 Filas no cargadas porque todos los campos eran nulos.
+
+
+Espacio asignado a matriz de enlace:          1044126 bytes (213 filas)
+Bytes de buffer de lectura: 1048576
+
+Total de registros lógicos omitidos:          0
+Total de registros lógicos leídos:        6094
+Total de registros lógicos rechazados:         0
+Total de registros lógicos desechados:        0
+
+La ejecución empezó en Mar Sep 21 11:08:45 2021
+La ejecución terminó en Mar Sep 21 11:08:55 2021
+
+Tiempo transcurrido:     00:00:09.82
+Tiempo de CPU:         00:00:00.19

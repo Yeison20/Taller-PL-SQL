@@ -1,0 +1,1 @@
+sqlldr precipitacion/p123 control=llenar_tabla_general.ctl data=Precipitaciones_Totales_Mensuales.csv

@@ -1,0 +1,5 @@
+CREATE USER precipitacion IDENTIFIED BY p123;
+GRANT ALL PRIVILEGES TO precipitacion;
+ALTER USER precipitacion QUOTA UNLIMITED ON USERS;
+
+
